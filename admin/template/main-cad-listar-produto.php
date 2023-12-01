@@ -10,6 +10,7 @@
           <th class="table-info"scope="col">Nome do produto</th>
           <th class="table-info"scope="col">Marca do produto</th>
           <th class="table-info"scope="col">Garantia</th>
+          <th class="table-info"scope="col">Quantidade</th>
         </tr>
       </thead>
       <tbody id="tabela-produto">

@@ -7,9 +7,10 @@
       <thead>
         <tr>
           <th class="table-info"scope="col">id</th>
-          <th class="table-info"scope="col">Nome do produto</th>
-          <th class="table-info"scope="col">Marca do produto</th>
-          <th class="table-info"scope="col">Garantia</th>
+          <th class="table-info"scope="col">Produto</th>
+          <th class="table-info"scope="col">Preço do produto</th>
+          <th class="table-info"scope="col">Fonecedor</th>
+          <th class="table-info"scope="col">garantia do produto</th>
         </tr>
       </thead>
       <tbody id="tabela-produto">

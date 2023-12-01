@@ -21,8 +21,12 @@
           <input class = "form-control" type = "text" name = "marca" id="marca" value = ""></input>
         </div>
         <div class="col-md-3">
-          <label for = "">Garantia do produto:</label>
+          <label for = "garantia">Garantia do produto:</label>
           <input class = "form-control" type = "date" name = "garantia" id="garantia" value = ""></input>
+        </div>
+        <div class="col-md-3">
+          <label for = "quantidade">Quantidade:</label>
+          <input class = "form-control" type = "date" name = "quantidade" id="quantidade" value = ""></input>
         </div>
       </div>
       <br>

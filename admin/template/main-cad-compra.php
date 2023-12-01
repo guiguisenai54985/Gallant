@@ -11,7 +11,7 @@
           <input class = "form-control" type = "text" name = "id" id="id" value = ""></input>
         </div>
         <div class="col-md-5">
-          <label for = "nomeProduto">Nome do produto:</label>
+          <label for = "nomeProduto">Produto:</label>
           <input class = "form-control" type = "text" name = "nomeProduto" id="nomeProduto" value = ""></input>
         </div>
       </div>
@@ -27,6 +27,14 @@
         <div class="col-md-3">
           <label for = "garantia">Garantia do produto:</label>
           <input class = "form-control" type = "date" name = "garantia" id="garantia" value = ""></input>
+        </div>
+        <div class="col-md-3">
+          <label for = "venda">preço de venda:</label>
+          <input class = "form-control" type = "date" name = "venda" id="venda" value = ""></input>
+        </div>
+        <div class="col-md-3">
+          <label for = "quantidade">Quantidade:</label>
+          <input class = "form-control" type = "date" name = "quantidade" id="quantidade" value = ""></input>
         </div>
       </div>
       <br>
