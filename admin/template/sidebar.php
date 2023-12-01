@@ -17,6 +17,8 @@
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li><a href="/admin/cadastro-produto.php" class="link-dark d-inline-flex text-decoration-none rounded">Cadastro de Produto</a></li>
               <li><a href="/admin/listar-produto.php" class="link-dark d-inline-flex text-decoration-none rounded">Listar produto</a></li>
+              <li><a href="/admin/cadastroCompra.php" class="link-dark d-inline-flex text-decoration-none rounded">cadastro de compra</a></li>
+              <li><a href="/admin/listarCompras.php" class="link-dark d-inline-flex text-decoration-none rounded">Listar compras</a></li>
             </ul>
           </div>
           </li>
