@@ -1,38 +1,38 @@
 addEventListener('load', ()=>{
-    let tabelaCompra = document.getElementById('tabela-compra').innerHTML;
-    let getDados = JSON.parse(localStorage.getItem('compra'));
+    let tabelajoias = document.getElementById('tabela-joias').innerHTML;
+    let getDados = JSON.parse(localStorage.getItem('joias'));
 
-    getDados.map((compra, index) => {
-        tabelaCompra += `<tr id=${index}>
+    getDados.map((joias, index) => {
+        tabelajoias += `<tr id=${index}>
             <td>${getDados[Item].id}</td>
-            <td>${getDados[Item].nomeProduto}</td>
+            <td>${getDados[Item].nomejoias}</td>
             <td>${getDados[Item].marca}</td>
             <td>${getDados[Item].garantia}</td>
         </tr>`;
     })
 })
 //buscando os dados do formularios
-let dadosCompra = document.getElementById('compra');
+let dadosjoiass = document.getElementById('joias');
 
 //pegando o evento do formulario
-dadosCompra.addEventListener('submit', (event) =>{
+dadosjoiass.addEventListener('submit', (event) =>{
     event.preventDefault();
 
-    let dados = new FormData(dadosCompra);
+    let dados = new FormData(dadosjoias);
    // console.log(dados);
 
     //converte os dados para um objeto
     dados = Object.fromEntries(dados.entries()); 
 
     //console.log(dados);
-    postProduto(dados);
+    postjoias(dados);
 
 })
 
-function postCliente(dadosCompras) {
-    fetch('http://localhost/admin/ajax/cad-produto.php',{
+function postCliente(dadosjoiass) {
+    fetch('http://localhost/admin/ajax/cad-joias.php',{
         method: 'POST',
-        body: JSON.stringify(dadosCompras)
+        body: JSON.stringify(dadosjoiass)
     })
     .then((result) =>{
         return result.json();
@@ -43,28 +43,28 @@ function postCliente(dadosCompras) {
     });
 }
 
-function cadastrarCliente(dadosCompras) {
+function cadastrarCliente(dadosjoiass) {
     //cria um array (vetor) vazio
     let setDados = new Array();
     //verifica se existe a chave no localStorage
     //se existir salva os dados em setDados
-    if(localStorage.hasOwnProperty('compra')){
-        setDados = JSON.parse(localStorage.getItem('compra'));
+    if(localStorage.hasOwnProperty('joias')){
+        setDados = JSON.parse(localStorage.getItem('joias'));
     }
     console.log(setDados);
     //adiciona os dados novos vindos do formulario do cliente ao array(vetor)
-    setDados.push(dadosCompras);
-    localStorage.setItem(compra, JSON.stringify(setDados));
+    setDados.push(dadosjoiass);
+    localStorage.setItem('joias', JSON.stringify(setDados));
    
-    let tabelaCompra = document.getElementById('tabela-compra');
+    let tabelajoias = document.getElementById('tabela-joias');
     let dados = `<tr>
-        <td>${dadosCompra.id}</td>
-        <td>${dadosCompra.nomeProduto}</td>
-        <td>${dadosCompra.marca}</td>
-        <td>${dadosCompra.garantia}</td>
+        <td>${dadosjoias.id}</td>
+        <td>${dadosjoias.nomejoias}</td>
+        <td>${dadosjoias.marca}</td>
+        <td>${dadosjoias.garantia}</td>
         
         </tr>`;
-    tabelaCompra.innerHTML += dados;
+    tabelajoias.innerHTML += dados;
 
 }
 

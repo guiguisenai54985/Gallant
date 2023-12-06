@@ -1,9 +1,9 @@
 <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-      <h1 class="h2">Cadastro de compras</h1>
+      <h1 class="h2">Cadastrar produtos</h1>
     </div>
   <div class="container">
-    <form id="cliente" name="cliente" action="" method="post" class = "form-control">
+    <form id="relogio" name="relogio" action="" method="post" class = "form-control">
       <legend>Dados do Produto</legend>
       <div class = "row">
         <div class="col-md-1">
@@ -11,30 +11,30 @@
           <input class = "form-control" type = "text" name = "id" id="id" value = ""></input>
         </div>
         <div class="col-md-5">
-          <label for = "nomeProduto">Produto:</label>
+          <label for = "nomeProduto">Nome do produto:</label>
           <input class = "form-control" type = "text" name = "nomeProduto" id="nomeProduto" value = ""></input>
         </div>
       </div>
       <div class = "row mt-2">
         <div class="col-md-4">
-          <label for = "preco">Preço do produto:</label>
-          <input class = "form-control" type = "text" name = "preco" id="preco" value = ""></input>
-        </div>
-        <div class="col-md-3">
-          <label for = "fonecedor">Fonecedor:</label>
-          <input class = "form-control" type = "date" name = "fonecedor" id="fonecedor" value = ""></input>
+          <label for = "marca">Marca do produto:</label>
+          <input class = "form-control" type = "text" name = "marca" id="marca" value = ""></input>
         </div>
         <div class="col-md-3">
           <label for = "garantia">Garantia do produto:</label>
           <input class = "form-control" type = "date" name = "garantia" id="garantia" value = ""></input>
         </div>
         <div class="col-md-3">
-          <label for = "venda">preço de venda:</label>
-          <input class = "form-control" type = "date" name = "venda" id="venda" value = ""></input>
+          <label for = "preco">Preço:</label>
+          <input class = "form-control" type = "date" name = "preco" id="preco" value = ""></input>
         </div>
         <div class="col-md-3">
           <label for = "quantidade">Quantidade:</label>
           <input class = "form-control" type = "date" name = "quantidade" id="quantidade" value = ""></input>
+        </div>
+        <div class="col-md-3">
+          <label for = "fornecedor">Fornecedor:</label>
+          <input class = "form-control" type = "date" name = "foencedor" id="fonecedor" value = ""></input>
         </div>
       </div>
       <br>

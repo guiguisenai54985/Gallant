@@ -4,7 +4,7 @@
       <div class="position-sticky pt-3 sidebar-sticky">
         <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/admin/index.php">
+              <a class="nav-link active" aria-current="page" href="../admin/index.php">
                 <span data-feather="home" class="align-text-bottom"></span>
                 HOME
               </a>
@@ -15,10 +15,10 @@
           </button>
           <div class="collapse" id="dashboard-produto">
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li><a href="/admin/cadastro-produto.php" class="link-dark d-inline-flex text-decoration-none rounded">Cadastro de Produto</a></li>
-              <li><a href="/admin/listar-produto.php" class="link-dark d-inline-flex text-decoration-none rounded">Listar produto</a></li>
-              <li><a href="/admin/cadastroCompra.php" class="link-dark d-inline-flex text-decoration-none rounded">cadastro de compra</a></li>
-              <li><a href="/admin/listarCompras.php" class="link-dark d-inline-flex text-decoration-none rounded">Listar compras</a></li>
+              <li><a href="../admin/cadastroJoias.php" class="link-dark d-inline-flex text-decoration-none rounded"><h6>Cadastro de Produto</h6></a></li>
+              <li><a href="../admin/listarJoias.php" class="link-dark d-inline-flex text-decoration-none rounded"><h6>Listar produto</h6></a></li>
+              <li><a href="../admin/cadastroRelogio.php" class="link-dark d-inline-flex text-decoration-none rounded"><h6>Cadastro de Produto</h6></a></li>
+              <li><a href="../admin/listarRelogio.php" class="link-dark d-inline-flex text-decoration-none rounded"><h6>Listar produto</h6></a></li>
             </ul>
           </div>
           </li>

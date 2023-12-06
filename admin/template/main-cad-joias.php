@@ -3,7 +3,7 @@
       <h1 class="h2">Cadastrar produtos</h1>
     </div>
   <div class="container">
-    <form id="cliente" name="cliente" action="" method="post" class = "form-control">
+    <form id="joias" name="joias" action="" method="post" class = "form-control">
       <legend>Dados do Produto</legend>
       <div class = "row">
         <div class="col-md-1">
@@ -25,8 +25,16 @@
           <input class = "form-control" type = "date" name = "garantia" id="garantia" value = ""></input>
         </div>
         <div class="col-md-3">
+          <label for = "preco">Preço:</label>
+          <input class = "form-control" type = "date" name = "preco" id="preco" value = ""></input>
+        </div>
+        <div class="col-md-3">
           <label for = "quantidade">Quantidade:</label>
           <input class = "form-control" type = "date" name = "quantidade" id="quantidade" value = ""></input>
+        </div>
+        <div class="col-md-3">
+          <label for = "fornecedor">Fornecedor:</label>
+          <input class = "form-control" type = "date" name = "foencedor" id="fonecedor" value = ""></input>
         </div>
       </div>
       <br>

@@ -1,8 +1,8 @@
 <?php
-$titulo_pagina = "Cadastro de Produto";
+$titulo_pagina = "Listar relógio";
 require_once "./template/header.php";
 require_once "./template/navbar.php";
 require_once "./template/sidebar.php";
-require_once "./template/main-cad-compra.php";
+require_once "./template/main-cad-listar-relogio.php";
 require_once "./template/footer.php";
 ?>

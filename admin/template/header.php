@@ -8,13 +8,13 @@
     <meta name="generator" content="1.0">
     <title><?=$titulo_pagina?></title>
 
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!--Arquivo custon da dashboard-->
-    <link rel="stylesheet" href="/css/dashboard.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
     <!-- Arquivo custon do template -->
     <link href="/css/custon.css" rel="stylesheet">
     <!--aquivo dos incones-->
-    <link rel="stylesheet" href="/css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-icons.min.css">
     <!--Arquivo css do menu droop-->
-    <link rel="stylesheet" href="/css/sidebars.css">
+    <link rel="stylesheet" href="../css/sidebars.css">
 </head>
