@@ -50,7 +50,7 @@ var spark1 = {
     opacity: 1,
   },
   series: [{
-    name: 'Sales',
+    name: 'Vendas',
     data: randomizeArray(sparklineData)
   }],
   labels: [...Array(24).keys()].map(n => `2018-09-0${n+1}`),
@@ -96,7 +96,7 @@ var spark2 = {
     opacity: 1,
   },
   series: [{
-    name: 'Expenses',
+    name: 'Despesas',
     data: randomizeArray(sparklineData)
   }],
   labels: [...Array(24).keys()].map(n => `2018-09-0${n+1}`),
@@ -142,7 +142,7 @@ var spark3 = {
     opacity: 1,
   },
   series: [{
-    name: 'Profits',
+    name: 'Lucros',
     data: randomizeArray(sparklineData)
   }],
   labels: [...Array(24).keys()].map(n => `2018-09-0${n+1}`),
@@ -425,7 +425,7 @@ var optionsBar = {
     }
   },
   title: {
-    text: 'Monthly Sales',
+    text: 'Vendas no Mês',
     align: 'left',
     style: {
       fontSize: '18px'
