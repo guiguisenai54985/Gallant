@@ -9,7 +9,7 @@
           <th class="table-info"scope="col">Cod.</th>
           <th class="table-info"scope="col">Nome</th>
           <th class="table-info"scope="col">Ano de fabricação</th>
-          <th class="table-info"scope="col">Genêro</th>
+          <th class="table-info"scope="col">Gênero</th>
           <th class="table-info"scope="col">Marca</th>
           <th class="table-info"scope="col">Garantia</th>
           <th class="table-info"scope="col">Preço</th>
@@ -19,7 +19,7 @@
           <th class="table-info"scope="col">Modelo</th>
           <th class="table-info"scope="col">Material</th>
           <th class="table-info"scope="col">Tamanho</th>
-          <th class="table-info"scope="col">Resistencia</th>
+          <th class="table-info"scope="col">Resistência</th>
           <th class="table-info"scope="col">Parcelamento</th>
           <th class="table-info"scope="col">Imagem</th>
           <th class="table-info"scope="col">Opições</th>

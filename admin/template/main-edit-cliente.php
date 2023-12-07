@@ -36,7 +36,7 @@ $cliente = mysqli_fetch_assoc($resultado);
                     <input class="form-control" type="text" name="telefone" id="telefone" value="<?= $cliente['telefone'] ?>">
                 </div>
                 <div class="col-md-3">
-                    <label for="cpf">Cpf:</label>
+                    <label for="cpf">CPF:</label>
                     <input class="form-control" type="text" name="cpf" id="cpf" value="">
                 </div>
                 <div class="col-md-6">
@@ -55,7 +55,7 @@ $cliente = mysqli_fetch_assoc($resultado);
                     <input class="form-control" type="text" name="rua" id="rua" value="">
                 </div>
                 <div class="col-md-3">
-                    <label for="numero">Numero:</label>
+                    <label for="numero">Número:</label>
                     <input class="form-control" type="text" name="numero" id="numero" value="">
                 </div>
                 <div class="col-md-3">
@@ -73,7 +73,7 @@ $cliente = mysqli_fetch_assoc($resultado);
                     <input class="form-control" type="text" name="estado" id="estado" value="">
                 </div>
                 <div class="col-md-3">
-                    <label for="pais">Pais:</label>
+                    <label for="pais">País:</label>
                     <input class="form-control" type="text" name="pais" id="pais" value="">
                 </div>
                 <div class="col-md-3">

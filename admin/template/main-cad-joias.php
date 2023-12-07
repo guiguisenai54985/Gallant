@@ -1,6 +1,6 @@
 <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-      <h1 class="h2">Cadastrar joias</h1>
+      <h1 class="h2">Cadastrar Joia</h1>
     </div>
   <div class="container">
     <form id="joias" name="joias" action="" method="post" class = "form-control">
@@ -19,7 +19,7 @@
           <input class = "form-control" type = "date" name = "fabricacao" id="fabricacao" value = ""></input>
         </div>
         <div class="col-md-2">
-          <label for = "genero">Genêro:</label>
+          <label for = "genero">Gênero:</label>
           <input class = "form-control" type = "text" name = "genero" id="genero" value = ""></input>
         </div>
 
@@ -58,7 +58,7 @@
           <input class = "form-control" type = "text" name = "material" id="material" value = ""></input>
         </div>
         <div class="col-md-3">
-          <label for = "tamanho">tamanho:</label>
+          <label for = "tamanho">Tamanho:</label>
           <input class = "form-control" type = "text" name = "tamanho" id="tamanho" value = ""></input>
         </div>
         <div class="col-md-3">
@@ -73,7 +73,7 @@
       <br>
       <div class="row">
         <div class="col-md-3">
-          <button class="btn btn-dark" type="submit"><i class="bi bi-check-lg"></i>Cadastrar produto</button>
+          <button class="btn btn-dark" type="submit"><i class="bi bi-check-lg"></i>Cadastrar Produto</button>
         </div>
       </div>
     </form>

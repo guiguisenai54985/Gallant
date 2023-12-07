@@ -9,7 +9,7 @@
           <th class="table-info"scope="col">Código</th>
           <th class="table-info"scope="col">Nome</th>
           <th class="table-info"scope="col">Ano de fabricação</th>
-          <th class="table-info"scope="col">Genêro</th>
+          <th class="table-info"scope="col">Gênero</th>
           <th class="table-info"scope="col">Marca</th>
           <th class="table-info"scope="col">Garantia</th>
           <th class="table-info"scope="col">Preço</th>
