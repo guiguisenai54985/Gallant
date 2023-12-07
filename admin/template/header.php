@@ -17,4 +17,6 @@
     <link rel="stylesheet" href="../css/bootstrap-icons.min.css">
     <!--Arquivo css do menu droop-->
     <link rel="stylesheet" href="../css/sidebars.css">
+    <!-- css grafico -->
+    <link rel="stylesheet" href="/css/graficos.css">
 </head>
