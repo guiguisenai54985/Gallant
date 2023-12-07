@@ -18,5 +18,5 @@
     <!--Arquivo css do menu droop-->
     <link rel="stylesheet" href="../css/sidebars.css">
     <!-- css grafico -->
-    <link rel="stylesheet" href="/css/graficos.css">
+    <link rel="stylesheet" href="assets/styles.css" />
 </head>
