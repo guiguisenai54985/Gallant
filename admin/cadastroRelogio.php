@@ -1,5 +1,5 @@
 <?php
-$titulo_pagina = "Cadastro de relogios";
+$titulo_pagina = "Cadastro de Relógios";
 require_once "./template/header.php";
 require_once "./template/navbar.php";
 require_once "./template/sidebar.php";
