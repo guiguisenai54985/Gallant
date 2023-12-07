@@ -6,13 +6,13 @@
     <form id="joias" name="joias" action="" method="post" class = "form-control">
       <legend>Dados do Produto</legend>
       <div class = "row">
-        <div class="col-md-1">
-          <label for = "id">id:</label>
-          <input class = "form-control" type = "text" name = "id" id="id" value = ""></input>
+        <div class="col-md-2">
+          <label for = "codigo">Código:</label>
+          <input class = "form-control" type = "text" name = "codigo" id="codigo" value = ""></input>
         </div>
         <div class="col-md-5">
-          <label for = "nomeProduto">Nome do produto:</label>
-          <input class = "form-control" type = "text" name = "nomeProduto" id="nomeProduto" value = ""></input>
+          <label for = "nomeJoia">Nome da joia:</label>
+          <input class = "form-control" type = "text" name = "nomeJoia" id="nomeJoia" value = ""></input>
         </div>
       </div>
       <div class = "row mt-2">
@@ -26,16 +26,21 @@
         </div>
         <div class="col-md-3">
           <label for = "preco">Preço:</label>
-          <input class = "form-control" type = "date" name = "preco" id="preco" value = ""></input>
+          <input class = "form-control" type = "text" name = "preco" id="preco" value = ""></input>
         </div>
         <div class="col-md-3">
+          <label for = "precoVenda">Preço de venda:</label>
+          <input class = "form-control" type = "text" name = "precovenda" id="precovenda" value = ""></input>
+        </div>
+        <div class="col-md-2">
           <label for = "quantidade">Quantidade:</label>
-          <input class = "form-control" type = "date" name = "quantidade" id="quantidade" value = ""></input>
+          <input class = "form-control" type = "text" name = "quantidade" id="quantidade" value = ""></input>
         </div>
         <div class="col-md-3">
           <label for = "fornecedor">Fornecedor:</label>
-          <input class = "form-control" type = "date" name = "foencedor" id="fonecedor" value = ""></input>
+          <input class = "form-control" type = "text" name = "foencedor" id="fonecedor" value = ""></input>
         </div>
+
       </div>
       <br>
       <div class="row">

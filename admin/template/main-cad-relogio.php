@@ -26,15 +26,15 @@
         </div>
         <div class="col-md-3">
           <label for = "preco">Preço:</label>
-          <input class = "form-control" type = "date" name = "preco" id="preco" value = ""></input>
+          <input class = "form-control" type = "text" name = "preco" id="preco" value = ""></input>
         </div>
         <div class="col-md-3">
           <label for = "quantidade">Quantidade:</label>
-          <input class = "form-control" type = "date" name = "quantidade" id="quantidade" value = ""></input>
+          <input class = "form-control" type = "text" name = "quantidade" id="quantidade" value = ""></input>
         </div>
         <div class="col-md-3">
           <label for = "fornecedor">Fornecedor:</label>
-          <input class = "form-control" type = "date" name = "foencedor" id="fonecedor" value = ""></input>
+          <input class = "form-control" type = "text" name = "foencedor" id="fonecedor" value = ""></input>
         </div>
       </div>
       <br>

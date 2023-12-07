@@ -1,24 +1,24 @@
 
 //buscando os dados do formularios
-let dadosrelogios = document.getElementById('relogio');
+let dadosRelogios = document.getElementById('relogio');
 
 //pegando o evento do formulario
-dadosrelogios.addEventListener('submit', (event) =>{
+dadosRelogios.addEventListener('submit', (event) =>{
     event.preventDefault();
 
-    let dados = new FormData(dadosrelogio);
+    let dados = new FormData(dadosRelogio);
    // console.log(dados);
 
     //converte os dados para um objeto
     dados = Object.fromEntries(dados.entries()); 
 
     //console.log(dados);
-    postrelogio(dados);
+    postRelogio(dados);
 
 })
 
 function postCliente(dadosrelogios) {
-    fetch('http://localhost/admin/ajax/cad-relogio.php',{
+    fetch('http://localhost/Gallant/admin/ajax/cad-relogio.php',{
         method: 'POST',
         body: JSON.stringify(dadosrelogios)
     })
